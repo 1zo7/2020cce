@@ -11,6 +11,7 @@ int main()
 	printf("%d=50*%d+5*%d+1*%d\n", n, n/50, (n%50)/5, (n%50)%5);
 }
 ```
+![基礎題：找零錢 ](https://github.com/1zo7/2020cce/blob/gh-pages/%E5%9F%BA%E7%A4%8E%E9%A1%8C%EF%BC%9A%E6%89%BE%E9%9B%B6%E9%8C%A2.png?raw=true)
 
 ## 基礎題：因數個數
 ```c
@@ -25,6 +26,8 @@ int main()
 	printf("%d\n", ans);
 }
 ```
+![基礎題：因數個數](https://github.com/1zo7/2020cce/blob/gh-pages/%E5%9F%BA%E7%A4%8E%E9%A1%8C%EF%BC%9A%E5%9B%A0%E6%95%B8%E5%80%8B%E6%95%B8.png?raw=true)
+
 ## 基礎題：找倍數
 ```c
 #include <stdio.h>
@@ -38,6 +41,7 @@ int main()
 	printf("%d\n", ans);
 }
 ```
+![基礎題：找倍數](https://github.com/1zo7/2020cce/blob/gh-pages/%E5%9F%BA%E7%A4%8E%E9%A1%8C%EF%BC%9A%E6%89%BE%E5%80%8D%E6%95%B8%20.png?raw=true)
 
 ## 基礎題：整數轉換為等級
 ```c
@@ -52,6 +56,7 @@ int main()
 	else printf("F\n");
 }
 ```
+![基礎題：整數轉換為等級](https://github.com/1zo7/2020cce/blob/gh-pages/%E5%9F%BA%E7%A4%8E%E9%A1%8C%EF%BC%9A%E6%95%B4%E6%95%B8%E8%BD%89%E6%8F%9B%E7%82%BA%E7%AD%89%E7%B4%9A.png?raw=true)
 
 ## 進階題：分式化簡
 ```c
@@ -75,6 +80,7 @@ int main()
     a = a / temp;
     b = b / temp;
 
-    printf("%d%d", a, b);
+    printf("%d %d\n", a, b);
 }
 ```
+![進階題：分式化簡](https://github.com/1zo7/2020cce/blob/gh-pages/%E9%80%B2%E9%9A%8E%E9%A1%8C%EF%BC%9A%E5%88%86%E5%BC%8F%E5%8C%96%E7%B0%A1.png?raw=true)
