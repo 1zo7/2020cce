@@ -84,3 +84,17 @@ int main()
 }
 ```
 ![進階題：分式化簡](https://github.com/1zo7/2020cce/blob/gh-pages/%E9%80%B2%E9%9A%8E%E9%A1%8C%EF%BC%9A%E5%88%86%E5%BC%8F%E5%8C%96%E7%B0%A1.png?raw=true)
+
+## 利用 int *p 來改變 n1變數的值
+```c
+#include <stdio.h>
+int main()
+{
+	int n1=10, n2=20, n3=30;
+	printf("n1:%d n2:%d n3:%d\n", n1, n2, n3);
+	
+	int *p = &n1;
+	*p = 200;
+	printf("n1:%d n2:%d n3:%d\n", n1, n2, n3);
+}
+```
