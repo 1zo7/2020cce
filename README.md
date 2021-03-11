@@ -117,7 +117,7 @@ int main()
 	printf("n1:%d n2:%d n3:%d\n", n1, n2, n3);
 }
 ```
-![week02-2]()
+![week02-2](https://github.com/1zo7/2020cce.github.io/blob/gh-pages/week02-2.png?raw=true)
 
 ## 利用 p2=p 讓address位址換掉 *p2=400 就會換往其他地方送400
 ```c
@@ -140,4 +140,4 @@ int main()
 }
 
 ```
-![week02-3]()
+![week02-3](https://github.com/1zo7/2020cce.github.io/blob/gh-pages/week02-3.png?raw=true)
