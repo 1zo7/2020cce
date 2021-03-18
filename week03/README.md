@@ -1,4 +1,5 @@
 ## int *p = &a[2]; *p=222; p = p + 2; *p = 666;
+```c
 #include <stdio.h>
 int main()
 {
@@ -9,8 +10,11 @@ int main()
     p = p + 2;
     *p = 666;
 }
+```c
 
 ## int *p = &a[2]; *p=222; p = p + 2; *p = 666; p--; *p=555;
+
+```c
 #include <stdio.h>
 int a[5] = {0, 10, 20, 30, 40};
 void printAll()
@@ -31,8 +35,11 @@ int main()
     *p = 555;
         printAll();
 }
+```c
 
 ## 把int * p = &a[2] ; 的 p 心中的值(心裡放住址的小紙條) 印出來 printf("%d\n", p); 
+
+```c
 #include <stdio.h>
 int a[5] = {0, 10, 20, 30, 40};
 void printAll()
@@ -56,8 +63,11 @@ int main()
         printAll();
         printf("p心裡小紙條記的值是:%d\n", p);
 }
+```c
 
 ##  int * p; p = (int *) malloc( sizeof(int) * 10 );
+
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -70,3 +80,4 @@ int *p = (int*) malloc(sizeof(int)*10);
 
 return 0;
 }
+```c
