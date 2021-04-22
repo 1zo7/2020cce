@@ -68,7 +68,7 @@ int main()
   qsort ( tree , N, 32, compare );
   
   printf("%s ", tree[0] );
-  int ans=1
+  int ans=1; //從1開始數 新的一筆
   
   for(int i=0; i<N-1; i++){
     if( strcmp( tree[i], tree[i+1] )!= 0 ){ //不同時
